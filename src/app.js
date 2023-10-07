@@ -5,12 +5,6 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
-  //write your code here
-  //console.log("Hello Rigo from the console!");
-};
-
-
 window.onload = function(){
 
   let who = ['The dog', 'My grandma', 'His turtle', 'My bird'];
@@ -19,9 +13,7 @@ window.onload = function(){
   let when = ['before the class', 'right on time', 'when I finished', 'during my lunch', 'while I was praying'];
   
   function randomElement(array){
-  
   return array[Math.floor(Math.round(Math.random() * array.length))];
-  
   }
 
   let excuse = randomElement(who) + 
