@@ -40,4 +40,4 @@ window.onload = function(){
   
   console.log(pElement[0]); 
 
-}
+};
