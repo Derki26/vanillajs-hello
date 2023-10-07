@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  //console.log("Hello Rigo from the console!");
 };
 
 
@@ -32,10 +32,12 @@ window.onload = function(){
   " " +
   randomElement(when);
 
-  console.log("start", excuse);
+  console.log(excuse);
   
   const pElement = document.getElementsByTagName("p")
   
-  pElement[0].innerText = excuse 
+  pElement[0].innerText = excuse;
+  
+  console.log(pElement[0]); 
 
 }
